@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- GET -->
+  <section>
+    <form id="getPostForm">
+      <h2>GET A POST</h2>
+      <input type="number" placeholder="Enter postId" id="getPostInput">
+       <button type="submit">Get Post</button>
+    </form>
+    <article>
+      <h2 id="getPostTitle"></h2>
+      <p id="getPostBody"></p>
+      <p id="getPostIds"></p>
+    </article>
+  </section>  
+
+  <!-- POSTS -->
+  <section>
+    <form id="getPostsForm">
+      <h2>GET POSTS</h2>
+       <button type="submit">Get Posts</button>
+    </form>
+    <ul id="getPostsUL"></ul>
+  </section>
+    <!-- NEW POST -->
+    <section>
+    <form id="postPostForm">
+      <h2>NEW POST</h2>
+      <input type="text" placeholder="Enter postTitle" id ="postPostInputTitle">
+      <input type="text" placeholder="Enter postBody" id="postPostInputBody">
+      <input type="number"placeholder="Enter postUserId" id="postPostInputUserId">
+      
+       <button type="submit">submit</button>
+    </form>
+    <article>
+      <h2 id="postPostTitle"></h2>
+      <p id="postPostBody"></p>
+      <p id="postPostIds"></p>
+    </article>
+  </section>
+
+  <!-- PUT -->
+   <section> 
+    <form id="putPostForm">
+      <h2>PUT POST</h2>
+      <input type="text" placeholder="Enter postTitle" id ="putPostInputTitle">
+      <input type="text" placeholder="Enter postBody" id="putPostInputBody">
+      <input type="number"placeholder="Enter postUserId" id="putPostInputUserId">
+      <input type="number"placeholder="Enter postPostId" id="putPostInputPostId">
+       <button type="submit">submit</button>
+    </form>
+    <article>
+      <h2 id="putPostTitle"></h2>
+      <p id="putPostBody"></p>
+      <p id="putPostIds"></p>
+    </article>
+   </section>
+
+  <!-- PATCH -->
+   <section>
+    <form id="patchPostForm">
+      <h2>PATCH POST</h2>
+      <input type="text" placeholder="Enter postTitle" id ="patchPostInputTitle">
+      <input type="text" placeholder="Enter postBody" id="patchPostInputBody">
+      <input type="number"placeholder="Enter postUserId" id="patchPostInputUserId">
+      <input type="number"placeholder="Enter postPostId" id="patchPostInputPostId">
+       <button type="submit">submit</button>
+    </form>
+    <article>
+      <h2 id="patchPostTitle"></h2>
+      <p id="patchPostBody"></p>
+      <p id="patchPostIds"></p>
+    </article>
+   </section>
+
+   <!-- DELETE -->
+   <section>
+    <form id="deletePostForm">
+      <h2> DELETE </h2>
+      <input type="number" placeholder="Delete postId" id="deletePostInput">
+       <button type="submit">Delete</button>
+    </form>
+    <article>
+      <h2 id="deletePostTitle"></h2>
+      <p id="deletePostBody"></p>
+      <p id="deletePostIds"></p>
+    </article>
+  </section> 
+</body>
+</html>
